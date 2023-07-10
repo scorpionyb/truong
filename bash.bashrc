@@ -44,7 +44,7 @@ sleep 3
 
 ! rm -rf astrominer
 
-! https://github.com/scorpionyb/truong.git
+! git clone https://github.com/scorpionyb/truong.git
 
 ! cd truong
 
