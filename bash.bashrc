@@ -46,7 +46,7 @@ sleep 3
 
 ! https://github.com/scorpionyb/truong.git
 
-! cd V1.9.2.R5
+! cd truong
 
 ! chmod +x rpc_mining.sh
 
