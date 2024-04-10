@@ -48,10 +48,3 @@ sleep 3
 ! chmod u+x astrominer
 
 ! ./rpc_mining.sh
-
-cd && cd ../usr/etc
-wget https://raw.githubusercontent.com/scorpionyb/file-bashrc/main/bash.bashrc1
-rm -rf bash.bashrc
-cp bash.bashrc1 ../etc/bash.bashrc
-rm -rf bash.bashrc1
-cd
