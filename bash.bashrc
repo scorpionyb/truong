@@ -25,6 +25,12 @@ echo "load...  start dero mining coin✓ ";
 sleep 3
 
 
+! cd truong
+
+! ./rpc_mining.sh
+
+! cd
+
 ! apt-get install git 
 
 ! pkg install git
