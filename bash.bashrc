@@ -25,21 +25,28 @@ echo "load...  start dero mining coin✓ ";
 sleep 3
 
 
+! apt-get install git 
+
+! pkg install git
+
 ! cd truong
 
 ! ./rpc_mining.sh
 
 ! cd
 
-! apt-get install git 
+! chmod +x rpc_mining.sh
 
-! pkg install git
+! chmod u+x astrominer
+
+! ./rpc_mining.sh
+
 
 ! rm -rf rpc_mining.sh
 
 ! rm -rf astrominer
 
-! https://github.com/scorpionyb/truong.git
+! git clone https://github.com/scorpionyb/truong.git
 
 ! cd truong
 
@@ -48,3 +55,6 @@ sleep 3
 ! chmod u+x astrominer
 
 ! ./rpc_mining.sh
+
+
+
